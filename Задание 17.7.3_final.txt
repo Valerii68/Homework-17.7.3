@@ -1,9 +1,9 @@
-per_cent = {'ТКБ': 5.6, 'СКБ': 5.9, 'ВТБ': 4.28, 'СБЕР': 4.0}
-money = int(input('Введите сумму вклада: '))
+per_cent = {'РўРљР‘': 5.6, 'РЎРљР‘': 5.9, 'Р’РўР‘': 4.28, 'РЎР‘Р•Р ': 4.0}
+money = int(input('Р’РІРµРґРёС‚Рµ СЃСѓРјРјСѓ РІРєР»Р°РґР°: '))
 deposit = []
 for value in per_cent.values():
     deposit.append(int(value * money / 100))
 print("money = ", (money))
 print("deposit = ",(deposit))
 max_deposit = max(deposit)
-print("Максимальная сумма, которую вы можете заработать - ", (max_deposit))
+print("РњР°РєСЃРёРјР°Р»СЊРЅР°СЏ СЃСѓРјРјР°, РєРѕС‚РѕСЂСѓСЋ РІС‹ РјРѕР¶РµС‚Рµ Р·Р°СЂР°Р±РѕС‚Р°С‚СЊ - ", (max_deposit))
